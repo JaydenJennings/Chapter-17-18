@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 18</title>
+</head>
+<body>
+
+    <script>
+        const projects = [
+            {title: "Travel destination", tech: "HTML/CSS", year:"2026", description: "A website showcasing popular travel destinations with images and descriptions." },
+            {title: "Portfolio", tech: "HTML/CSS/JS", year:"2026", description:"A personal portfolio website showcasing projects and skills."},
+            {title: "Entertainment Review Website", tech: "HTML/CSS/",year:"2026", description: "A website for reviewing movies and TV shows."}, 
+        ];
+        projects.push({
+        title: "JMK Racing",
+        tech: "Python/Pygame",
+        year: "2025",
+        description: "A 2D racing game featuring cars, obstacles, maps, and powerups."
+});
+projects.forEach(project => console.log(project.title));
+const jsonString = JSON.stringify(projects);
+console.log(jsonString);
+        
+</script>
+    
+</body>
+</html>
